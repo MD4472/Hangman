@@ -1,0 +1,22 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "hangman assignment",
+  "main": "letter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MD4472/Hangman.git"
+  },
+  "author": "MD4472",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MD4472/Hangman/issues"
+  },
+  "homepage": "https://github.com/MD4472/Hangman#readme",
+  "dependencies": {
+    "prompt": "^0.2.14"
+  }
+}
