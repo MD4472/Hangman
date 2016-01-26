@@ -8,7 +8,7 @@ function Word(wrd)
     this.found = false;
     //the function below create Letter objects for each letter 
     //in the word and put the objects in an array
-    this.getsLets = function(){ 
+    this.getLets = function(){ 
       for (var i = 0; i < this.word.length; i++)
         { this.lets.push(new Letter(this.word.charAt(i)));
         }
@@ -21,7 +21,7 @@ function Word(wrd)
           whatToReturn +=1;
           }
         }
-        return checkIfLetterFound;
+        return whatToReturn;
       };
     this.didWeFindTheWord = function() {
       function curLets(letter) {

@@ -14,5 +14,5 @@ function Letter(let){
   };
   
 }
-var newLet = new Letter('a');
-console.log(newLet);
+// var newLet = new Letter('a');
+// console.log(newLet);
